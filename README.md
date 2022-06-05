@@ -1,18 +1,8 @@
-## Getting Started
+## Challenge.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Start with a base class of a Vehicle, then create a Car class that inherits from this base class.
+Finally, create another class, a specific type of Car that inherits from the Car class.
+You should be able to hand steering, changing gears, and moving (speed in other words).
+You will want to decide where to put the appropriate state and behaviours (fields and methods).
+As mentioned above, changing gears, increasing/decreasing speed should be included.
+For you specific type of vehicle you will want to add something specific for that type of car.
